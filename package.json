@@ -1,25 +1,27 @@
 {
-	"name": "integration_testing_degraphe_youtube",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "jest --watchAll",
-		"start": "node index",
-		"dev": "nodemon index"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"express": "^4.17.3",
-		"express-validator": "^6.14.0"
-	},
-	"jest": {
-		"modulePathIgnorePatterns": [ "books.json" ]
-	},
-	"devDependencies": {
-		"jest": "^27.5.1",
-		"supertest": "^6.2.2"
-	}
+  "name": "yarn_integration_testing_degraphe_youtube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ejeba69/integration_testing_degraphe_youtube.git",
+  "author": "\"\"",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+    "books.json"
+    ]
+    },
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "nodemon": "^2.0.19",
+    "supertest": "^6.2.4"
+  }
 }
